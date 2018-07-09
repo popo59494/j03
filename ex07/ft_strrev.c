@@ -6,17 +6,18 @@
 /*   By: apogorze <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/07/08 21:09:23 by apogorze          #+#    #+#             */
-/*   Updated: 2018/07/08 21:18:46 by apogorze         ###   ########.fr       */
+/*   Updated: 2018/07/09 13:12:13 by apogorze         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-char	*ft_strrev(char *str);
+char	*ft_strrev(char *str)
 {
 	int i;
 
 	i = 0;
-	while (str[i] != '\0')
-	{
-		return 
-	}
+	while  (str[i] == '\0')
+		i = i + 1;
+	while  (i != 0)
+		return (&str[i]);
+	return (0);
 }
