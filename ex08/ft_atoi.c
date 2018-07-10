@@ -9,18 +9,14 @@ int	ft_atoi(char *str)
 	while(str[i] != '\0')
 		i = i + 1;
 	c = i
-	if (str[0] == '-')
-		
-	while (b < c)
+		while (b < c)
 		{
-		while (i>0)
-			{
-				a = a + ((str[b] - '0'))*(10^(i-1)
-				b = b + 1;
-				i = i - 1;
-			}
+			if (str[0] == 45)
+				str[0] = 45;
+			if (str[b] > 47 && str[b] < 58)
+				a = a + (str[b] - '0')*(10^(i-1);
+			b = b + 1;
+			i = i - 1;
 		}
-	return(a)
+	 return(a)
 }
-
-100+20+
